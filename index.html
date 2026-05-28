@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.4);
+            color: white;
+            text-align: center;
+            padding: 8px 0;
+            font-weight: bold;
+            backdrop-filter: blur(4px);
+        }
+        body {
+            padding-bottom: 60px;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-cover bg-center" 
+      style="background-image: url('slike/background.jpg');">
+
+<nav id="navbar" class="navbar bg-base-100 shadow-lg px-6">
+    <div class="flex-1">
+        <a class="text-xl font-bold">FitnessTracker</a>
+    </div>
+    <div class="flex-none">
+        <button id="homeBtn" class="btn btn-ghost">Početna</button>
+    </div>
+</nav>
+
+<main id="app" class="p-6"></main>
+
+<footer>
+    Aplikaciju izradile učenice: Ana i Petra
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
